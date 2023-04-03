@@ -24,3 +24,4 @@ int main()
 	printf("Input the second float value:");
 	scanf_s("%f", &fy, sizeof(fy));
 	printf("Value of the second float=%.2f\n", fy); 
+	
