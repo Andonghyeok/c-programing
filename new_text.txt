@@ -25,3 +25,8 @@ int main()
 	scanf_s("%f", &fy, sizeof(fy));
 	printf("Value of the second float=%.2f\n", fy); 
 	
+
+	getchar();
+	getchar();
+	return 0;
+}
