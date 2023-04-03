@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int x;
+	int y;
+	float fx;
+	float fy;
+	
+	printf("Input the first integer number:");
+	scanf_s("%d", &x,sizeof(x));
+
+	printf("Input the second integer number:");
+	scanf_s("%d", &y, sizeof(y));
+
+	printf("Value of the first integer=%d\n",x);
+	printf("Value of the second integer=%d\n\n", y);
+
+	printf("Input the first float value:");
+	scanf_s("%f", &fx, sizeof(fx));
+	printf("Value of the first float=%.2f\n", fx);
+	
+	printf("Input the second float value:");
+	scanf_s("%f", &fy, sizeof(fy));
+	printf("Value of the second float=%.2f\n", fy); 
