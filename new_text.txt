@@ -3,28 +3,31 @@ using namespace std;
 
 int main()
 {
-	int x;
-	int y;
-	float fx;
-	float fy;
-	
+	int num1;
+	int num2;
+	int addition;
+	int subtraction;
+	int multiplication;
+	float division;
+
 	printf("Input the first integer number:");
-	scanf_s("%d", &x,sizeof(x));
+	scanf_s("%d", &num1, sizeof(num1));
 
 	printf("Input the second integer number:");
-	scanf_s("%d", &y, sizeof(y));
+	scanf_s("%d", &num2, sizeof(num2));
 
-	printf("Value of the first integer=%d\n",x);
-	printf("Value of the second integer=%d\n\n", y);
+	addition = num1 + num2;
+	subtraction = num1 - num2;
+	multiplication = num1 * num2;
+	division = (float)num1 / num2;
+	
+	printf("Addition=%d\n",addition);
+	printf("subtraction=%d\n",subtraction);
+	printf("multiplication=%d\n",multiplication);
+	printf("division=%f\n",division);
 
-	printf("Input the first float value:");
-	scanf_s("%f", &fx, sizeof(fx));
-	printf("Value of the first float=%.2f\n", fx);
-	
-	printf("Input the second float value:");
-	scanf_s("%f", &fy, sizeof(fy));
-	printf("Value of the second float=%.2f\n", fy); 
-	
+
+
 
 	getchar();
 	getchar();
