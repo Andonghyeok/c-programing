@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main(){	
+	int i;
+	int n;
+	int sum=0;
+	float avg;
+	printf("Input 5 integer number:");
+
+	for (i = 1; i <= 5; i++) {
+		scanf_s("%d", &n, sizeof(n));
+		sum = sum + n;
+	}
+	printf("sum=%d\n", sum);
+	avg = sum / 5.0;
+	printf("Average = %f\n", avg);
+
+
+	getchar();
+	getchar();
+	return 0;
+}
+ 
